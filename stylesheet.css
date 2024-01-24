@@ -1,0 +1,87 @@
+	body 
+		{
+		background-image: url(https://mb.com.ph/media/IMG_0786_007cbaba49/IMG_0786_007cbaba49.jpeg) ;
+		background-attachment: fixed;
+	    background-repeat:no-repeat;
+	    background-position: center center;
+	    background-size: cover;
+		}
+	h1 
+		{
+		text-align: center;
+		font-family: Quicksand;
+		color: #2954ab;
+		background: rgb(255,255,255);
+		background: linear-gradient(180deg, rgba(255,255,255,1) 49%, rgba(191,231,255,1) 100%);
+	    opacity: 90;
+	    border: 3px solid #042975;
+	    padding: 5px;
+		}
+
+	h2
+		{
+		font-size: 120%;
+		}
+	img 
+		{
+		border: 3px solid #ffcc33;
+		width: 225px;
+		height: 200px;
+		}
+
+	.description
+	{
+		text-align: center;
+		font-family: Quicksand;
+		color: #2954ab;
+		opacity: 90;
+		border: 3px solid #042975;
+		padding: 5px;
+	.main-body 
+		{  
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 3px 3px;
+		grid-auto-flow: row;
+		grid-template-areas:
+		"areaphoto areadesc areadesc"
+		"areaphoto areadesc areadesc"
+		"areaphoto areadesc areadesc";
+		justify-content:center;
+	    display:flex;
+	    text-align: center;
+	    flex-wrap: wrap;
+	    padding: 5px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    background-color: #C8EBFF;
+	    border: 2px solid #1d2a45;
+	    width: 1500px;
+		}
+
+	.areaphoto 
+		{
+		grid-area: areaphoto;
+		border: 2px solid #1d2a45;
+		width: 225px;
+		background-color: #bacef5;
+		}
+		
+	.areadesc 
+		{
+		grid-area: areadesc;
+		border: 2px solid #1d2a45;
+		width: 225px;
+		background-color: #bacef5;
+		}
+
+		}
+	.citations
+		{
+		background-color: white;
+		border: 2px solid #1d2a45;
+		text-align: center;
+		width: 120px;
+		height: 50px;
+		}
